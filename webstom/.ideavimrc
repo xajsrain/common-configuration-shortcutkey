@@ -1,0 +1,16 @@
+" Install IdeaVim IdeaVim-EasyMotion AceJump
+inoremap jk <Esc>
+nnoremap <Space> <Nop>
+nnoremap <A-u> 4j
+nnoremap <A-i> 4k
+let mapleader=" "
+
+set so=10
+set visualbell
+set noerrorbells
+set surround
+set easymotion
+set commentary
+set textobj-indent
+set textobj-entire
+map <Leader> <Plug>(easymotion-prefix)
